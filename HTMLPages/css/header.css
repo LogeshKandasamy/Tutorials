@@ -1,71 +1,44 @@
+.body{
+padding-top: 60px;
+padding-bottom: 40px;
+}
 .headtop{
-    background-color: antiquewhite;
-    width:100%px;
-    height:70px;    
+    top:0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:450px;  
+    text-decoration: none;     
 }
 .nav-left{
 float:left;
 }
-.nav-right{
+.nav-right{    
     float:right;
-    margin-right: 100px;        
+    margin-right: 100px;  
+    font-size:medium;        
 }
-
-/* .topnav{
-    overflow:hidden;
-    background-color:rgb(215, 175, 252);
-    width:100%;
-    height:100%;
-}
-.topnav a{
-float: left;
-color: black;
-text-align: center;
-padding:14px 16px;
-text-decoration: double;
-font-size:medium; 
-}
- /* when user move near its will highlighted hover */
-/* .topnav a:hover{
-    background-color:bisque;
-    color: black;
-} */
-.topnav-right{
-    float:right;
-    margin-right: 100px;
+.nav-right a:link{
+    text-decoration: none;
+    width:10vw;    
+    display: inline-block; 
+    text-align:center; 
+    padding: 8px;
+    background-color:rgb(255, 255, 255); 
+    text-decoration: none;
     
+}      
+
+.selected{
+    background-color:blue;
+    color: white;
+    text-decoration: none;
 }
-.img{
-   size:150px 150px; 
-}
+*,*::before,*::after{
+    box-sizing:border-box;
+ }
 
 
-
-
-
-
-
-
-/* .mainHeader{
-    background-color: rgb(228, 206, 249);   
-    padding:none;
-}
-.table{
- display: table;
- margin:1%;
- 
-}
-ul#horizontal-list{
- min-width: 600px;
- list-style:circle;
- padding-top:0%;
-}
-ul#horizontal-list li{
-    display:inline-table;
-    float:right;
-    margin-right:20px;
-}
- */
 
 
 
