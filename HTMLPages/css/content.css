@@ -1,0 +1,36 @@
+.content{    
+    overflow:hidden;
+    background-color:rgb(253, 217, 254);
+    width:100%;        
+    /* background-color: yellow;
+    display: table;
+    content: "";
+    clear:none; */
+}
+.content-left{
+    float: left;
+    color:black; 
+    background-color: aqua;   
+    height: 200px;
+    width:410px;   
+    margin-left:0px;
+    }
+.content-right{
+    background-color:rgb(209, 170, 211);
+    float:right;
+    margin-right: 0px;
+    width:837px;
+    height: 200px;
+    text-align: center;
+}
+.content-right pre{
+    color: navy;
+    text-indent:0%;
+    text-align: center;    
+}
+/* @media (max-width: 600px) {
+    content, content-right {
+      width: 100%;
+      height: auto;
+    }
+  } */
