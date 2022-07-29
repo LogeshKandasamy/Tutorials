@@ -8,16 +8,26 @@
 @media (min-width:1400px){.container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl{max-width:1320px}} 
 
 /* content : display background color in grey */
-.bg-primary{background-color:#F8F8F8!important}
-a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover{
-    background-color:#30a045!important}
-.bg-secondary{background-color:#d74e28!important}
+.bg-primary{      
+    padding:0px 0px 0px 0px ; 
+	position:absolute;
+	height:100%;
+    background-color:#EBECEC!important  
+    /* background-color:#FFFDD0!important  3 */
+    /* background-color:#444444!important  1 */
+    /* background-color:#7F7F7F!important  2 */
+}
 
 /* content : text color disply in grey color here */
 .text-white{
-    text-align: justify;
-    color: #050f18!important    
+    text-align: justify;    
+    color: #0707f7!important 
+    /* color: #f3f6f7!important for 1,2 */
 }
+
+a.bg-primary:focus,a.bg-primary:hover,button.bg-primary:focus,button.bg-primary:hover{    
+    background-color:#30a045!important}
+   .bg-secondary{background-color:#d74e28!important}
 
  /* navbar : backgroung color */
 .bg-light{background-color:#f8f9fa!important}
